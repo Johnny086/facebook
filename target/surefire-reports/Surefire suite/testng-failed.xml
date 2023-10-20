@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="product_Module.ToCreateAProductTest">
+        <methods>
+          <include name="bcConfig"/>
+          <include name="asConfig"/>
+          <include name="bsConfig"/>
+          <include name="bmConfig"/>
+          <include name="amConfig"/>
+          <include name="toCreateAProductWithVendorInformation"/>
+          <include name="acConfig"/>
+        </methods>
+      </class> <!-- product_Module.ToCreateAProductTest -->
+      <class name="leads_Module.ToCreatLeadTest">
+        <methods>
+          <include name="bcConfig"/>
+          <include name="asConfig"/>
+          <include name="bmConfig"/>
+          <include name="bsConfig"/>
+          <include name="amConfig"/>
+          <include name="toCreateALeadAndToVerifyTheLeadInformation"/>
+          <include name="acConfig"/>
+        </methods>
+      </class> <!-- leads_Module.ToCreatLeadTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
