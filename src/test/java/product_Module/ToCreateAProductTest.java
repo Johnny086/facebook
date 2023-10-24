@@ -22,7 +22,7 @@ public class ToCreateAProductTest extends A_BaseClass  {
  System.out.println(salesStartDate);
 System.out.println(salesEndDate);
 System.out.println("January");   
-System.err.println("Tuesday");
+System.err.println("Monkey");
  }
   
 }
