@@ -17,7 +17,7 @@ public class ToCreateAProductTest extends A_BaseClass  {
  System.out.println(vendorName); 
  System.out.println(productName);
  System.out.println("xyd");
-// Assert.fail();
+ Assert.fail();
 // String salesStartDate=eUtils.featchDateDataFromExcelSheet("Product", 1, 2);
 // String salesEndDate=eUtils.featchDateDataFromExcelSheet("Product",1,3);
 // System.out.println(salesStartDate);
