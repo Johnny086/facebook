@@ -13,7 +13,7 @@
 							<version>3.1.2</version>
 							<configuration>
 								<suiteXmlFiles>
-									<suiteXmlFile>E:\FrameWork October\VTIGER!\testng.xml</suiteXmlFile>
+									<suiteXmlFile>E:\FrameWork October\VTIGER!\testng_Laed.xml</suiteXmlFile>
 									<suiteXmlFile>E:\FrameWork October\VTIGER!\testngproduct.xml</suiteXmlFile>
 								</suiteXmlFiles>
 							</configuration>
