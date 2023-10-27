@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="product_Module.ToCreateAProductTest">
+      <class name="leads_Module.ToCreatLeadTest">
         <methods>
           <include name="bcConfig"/>
           <include name="asConfig"/>
-          <include name="bmConfig"/>
           <include name="bsConfig"/>
+          <include name="bmConfig"/>
           <include name="amConfig"/>
-          <include name="toCreateAProductWithVendorInformation"/>
+          <include name="toCreateALeadAndToVerifyTheLeadInformation"/>
           <include name="acConfig"/>
         </methods>
-      </class> <!-- product_Module.ToCreateAProductTest -->
+      </class> <!-- leads_Module.ToCreatLeadTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

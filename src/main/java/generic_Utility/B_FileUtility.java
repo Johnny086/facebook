@@ -13,7 +13,7 @@ public class B_FileUtility {
 	 * @throws IOException
 	 */
 	public String fetchDataFromPropertyFile(String key) throws IOException {
-    FileInputStream fis = new FileInputStream("E:\\Automation Framework 2023\\Vtiger\\src\\test\\resources\\commonData.properties");
+    FileInputStream fis = new FileInputStream("E:\\FrameWork October\\VTIGER!\\src\\test\\resources\\commonData.properties");
 	Properties prop = new Properties();	
 	prop.load(fis);
 	return prop.getProperty(key);

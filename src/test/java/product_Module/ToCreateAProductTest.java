@@ -20,9 +20,9 @@ public class ToCreateAProductTest extends A_BaseClass  {
  String salesStartDate=eUtils.featchDateDataFromExcelSheet("Product", 1, 2);
  String salesEndDate=eUtils.featchDateDataFromExcelSheet("Product",1,3);
  System.out.println(salesStartDate);
-System.out.println(salesEndDate);
-System.out.println("Avengger");
-System.out.println("Spyder");
+ System.out.println(salesEndDate);
+ System.out.println("Avengger");
+ System.out.println("Spyder");
 
  }
   

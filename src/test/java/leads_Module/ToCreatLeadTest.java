@@ -36,7 +36,7 @@ import pom_Repository.E_LeadInforamationPage;
 				
 	// Script
 	// Clicking on the lead module
-	Assert.fail();// Here We Use Assert to take Screen shot
+    //Assert.fail();// Here We Use Assert to take Screen shot
 	home.clickOnLeadModule();			
 	// Clicking on the lead plus button
 	lead.clickOnLeadButton();		
