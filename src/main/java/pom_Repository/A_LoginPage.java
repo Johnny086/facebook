@@ -7,8 +7,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 	public class A_LoginPage {
-		public  A_LoginPage(WebDriver driver) {
-
+		public  A_LoginPage(WebDriver driver) 
+		{
 			PageFactory.initElements(driver, this);
 			} 
 			@FindBy(name="user_name")

@@ -13,11 +13,10 @@ import pom_Repository.C_LeadPage;
 import pom_Repository.D_CreatingNewLeadPage;
 import pom_Repository.E_LeadInforamationPage;
 
-
     @Listeners(generic_Utility.ListnersImplementationClass.class)
 	public class ToCreatLeadTest extends A_BaseClass {
-			
-	@Test (retryAnalyzer=generic_Utility.RetryImpementationClass.class)
+    
+	@Test (retryAnalyzer=generic_Utility.RetryImpementationClass.class,groups="smoke")
 	public void toCreateALeadAndToVerifyTheLeadInformation() throws EncryptedDocumentException, IOException {
 	
 	//Test Data

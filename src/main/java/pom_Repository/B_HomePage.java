@@ -117,8 +117,8 @@ public class B_HomePage {
 	// Here use action to move cursor
 	public void clickOnCampaignModule() {
 		
-		new Actions(driver).moveToElement(moreModule).perform();
-		campaignsModule.click();
+	new Actions(driver).moveToElement(moreModule).perform();
+	campaignsModule.click();
 		
 	}
 	

@@ -41,26 +41,26 @@ WebDriver driver;
  private WebElement ProductImageUpload;
  
  @FindBy(xpath="//input[@title=\"Save [Alt+S]\"]")
-  private WebElement SaveButton;
+ private WebElement SaveButton;
  
  public WebDriver getDriver() {
-	return driver;
+ return driver;
 }
 
-public WebElement getProductNameTextField() {
-	return productNameTextField;
+ public WebElement getProductNameTextField() {
+ return productNameTextField;
 }
 
 public WebElement getSalesStartDate() {
-	return salesStartDate;
+return salesStartDate;
 }
 
 public WebElement getSalesEndDate() {
-	return salesEndDate;
+return salesEndDate;
 }
 
 public WebElement getVendorNameLookUpButton() {
-	return vendorNameLookUpButton;
+return vendorNameLookUpButton;
 }
 
 public WebElement getVendorNameSearchbox() {
@@ -71,44 +71,44 @@ public WebElement getVendorNameSearchButton() {
 	return vendorNameSearchButton;
 }
 
-public WebElement getProductImageUpload() {
-	return ProductImageUpload;
+ public WebElement getProductImageUpload() {
+ return ProductImageUpload;
 }
 
-public WebElement getSaveButton() {
-return SaveButton;
+ public WebElement getSaveButton() {
+ return SaveButton;
 }
 
-public void enterProductName(String productName) {
-productNameTextField.sendKeys(productName);
+ public void enterProductName(String productName) {
+ productNameTextField.sendKeys(productName);
 }
 
-public void enterSalesStartDate(String startDate) {
-salesStartDate.sendKeys(startDate);
+ public void enterSalesStartDate(String startDate) {
+ salesStartDate.sendKeys(startDate);
 }
 
-public void enterSalesEndDate(String SalesEndDate) {
-salesEndDate.sendKeys(SalesEndDate);
+ public void enterSalesEndDate(String SalesEndDate) {
+ salesEndDate.sendKeys(SalesEndDate);
 }
 
-public void clickOnLookupButton() {
-vendorNameLookUpButton.click();
+ public void clickOnLookupButton() {
+ vendorNameLookUpButton.click();
 }
 
-public void selectvendorNameFromLookPage(String lookUpPagetitle, String VendorName) {
-C_WebDriverUtility wUtils = new C_WebDriverUtility();
-wUtils.switchToWindow(driver,lookUpPagetitle);
-vendorNameSearchbox.sendKeys(VendorName);
-vendorNameSearchButton.click();
-driver.findElement(By.xpath("//a[text()='"+VendorName+"']")).click();
-wUtils.switchToWindow(driver, Productpagetitle);
-}
+ public void selectvendorNameFromLookPage(String lookUpPagetitle, String VendorName) {
+ C_WebDriverUtility wUtils = new C_WebDriverUtility();
+ wUtils.switchToWindow(driver,lookUpPagetitle);
+ vendorNameSearchbox.sendKeys(VendorName);
+ vendorNameSearchButton.click();
+ driver.findElement(By.xpath("//a[text()='"+VendorName+"']")).click();
+ wUtils.switchToWindow(driver, Productpagetitle);
+ }
 
-public void uploadProductIamge(String path) {
-ProductImageUpload.sendKeys(path);
-}
-public void clickOnSavebutton() {
-	SaveButton.click();
+ public void uploadProductIamge(String path) {
+ ProductImageUpload.sendKeys(path);
+ }
+ public void clickOnSavebutton() {
+ SaveButton.click();
 }
 
 public void clickOnSearchedvendorName(String vendorname) {
